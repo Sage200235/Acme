@@ -1,0 +1,64 @@
+.heropage{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../Images/code\ bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    z-index: -2;
+}
+
+.heropage > h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -30px;
+}
+
+@media screen and (max-width:430px){
+    .heropage > h1{
+        font-size: 20px;
+    }
+}
+
+.heropage > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -15px;
+    z-index: 4;
+}
+
+@media screen and (max-width:430px){
+    .heropage > p{
+        font-size: 10px;
+    }
+}
+
+.button{
+    width: 150px;
+    height: 60px;
+    background-color: #333333;
+    color: white;
+    border: 1px solid #666;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+@media screen and (max-width:430px){
+    .button{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+
+.button:hover{
+    background-color: white;
+    color: #333333;
+}

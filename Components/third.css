@@ -1,0 +1,130 @@
+.body{
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width:426px){
+    .body{
+        margin-top: 900px;
+    }
+}
+
+.upperBody{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upperBody > h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:426px){
+    .upperBody > h1{
+        font-size: 15px;
+    }
+}
+
+.upperBody > p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:376px){
+    .upperBody > p{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width:426px) and (min-width:376px){
+    .upperBody > p{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:769px) and (min-width:426px){
+    .upperBody > p{
+        font-size: 15px;
+    }
+}
+.downBody{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    color: white;
+}
+
+@media screen and (max-width:426px){
+    .downBody{
+        flex-direction: column;
+        height: 120%;
+    }
+}
+
+.leftBody{
+    width: 50%;
+    height: 100%;
+    background-color: #2690D4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:426px){
+        .leftBody{
+            width: 100%;
+            height: 50%;
+        }
+}
+
+.h{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:769px){
+    .h{
+        font-size: 30px;
+    }
+}
+
+.pp{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media screen and (min-width:1023px){
+    .pp{
+        font-size: 16px ;
+    }
+}
+
+@media screen and (max-width:769px){
+    .pp{
+        font-size: 10px;
+    }
+}
+
+.rightBody{
+    width: 50%;
+    height: 100%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:426px){
+    .rightBody{
+        width: 100%;
+        height: 50%;
+    }
+}
